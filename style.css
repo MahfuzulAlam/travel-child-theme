@@ -81,6 +81,49 @@ Text Domain:    onelisting-child
     font-weight: 700;
 }
 
+.single-at_biz_dir .single-starts-from{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.directorist-details-info-wrap .directorist-single-info .directorist-single-info__label
+{
+    min-width: 50%;
+    font-size: 15px;
+    color: var(--color-dark);
+}
+
+.directorist-details-info-wrap .directorist-single-info .directorist-single-info__value
+{
+    font-size: 15px;
+}
+
+#tfbd-single-policy .directorist-details-info-wrap .directorist-single-info
+{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#tfbd-single-policy .directorist-single-info .directorist-single-info__label .directorist-single-info__label-icon
+{
+    display: none;
+}
+
+#tfbd-single-policy  .directorist-details-info-wrap .directorist-single-info .directorist-single-info__label,
+#tfbd-single-policy .directorist-single-info-checkbox .directorist-single-info__label--text
+{
+    color: var(--color-dark);
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#tfbd-single-policy  .directorist-details-info-wrap .directorist-single-info .directorist-single-info__value
+{
+    font-size: 15px;
+    white-space: break-spaces;
+}
+
 /* MOBILE WEB BROWSE */
 @media only screen and (min-width: 800px) {
     .directorist-single-wrapper .directorist-card__body .directorist-details-info-wrap ul li
