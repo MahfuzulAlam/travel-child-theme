@@ -35,7 +35,7 @@ class TP_Filters
         foreach ($features as $feature) {
             if (isset($info[$feature]) && !empty($info[$feature])) $info[$feature] = array_unique($info[$feature]);
         }
-        file_put_contents(dirname(__FILE__) . '/info.json', json_encode($info));
+        //file_put_contents(dirname(__FILE__) . '/info.json', json_encode($info));
         return $info;
     }
 };
